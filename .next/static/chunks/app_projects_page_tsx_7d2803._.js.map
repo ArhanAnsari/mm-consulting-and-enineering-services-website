@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://E%3A/My%20Projects/VS%20Code%20Projects/Website/mm-consulting-and-enineering-services-website/app/projects/page.tsx"],"sourcesContent":["'use client';\r\nimport { motion } from 'framer-motion';\r\n\r\nexport default function Projects() {\r\n  return (\r\n    <motion.section \r\n      initial={{ opacity: 0, y: 40 }} \r\n      animate={{ opacity: 1, y: 0 }} \r\n      transition={{ duration: 0.8 }}\r\n      className=\"px-4 md:px-20 mt-20\"\r\n    >\r\n      <h1 className=\"text-3xl md:text-5xl font-bold text-yellow-400 mb-6\">Projects</h1>\r\n      <p className=\"text-white text-lg\">Our upcoming project gallery will showcase a wide range of our completed and ongoing engineering solutions.</p>\r\n    </motion.section>\r\n  );\r\n}"],"names":[],"mappings":";;;;AACA;AADA;;;AAGe,SAAS;IACtB,qBACE,6LAAC,6LAAA,CAAA,SAAM,CAAC,OAAO;QACb,SAAS;YAAE,SAAS;YAAG,GAAG;QAAG;QAC7B,SAAS;YAAE,SAAS;YAAG,GAAG;QAAE;QAC5B,YAAY;YAAE,UAAU;QAAI;QAC5B,WAAU;;0BAEV,6LAAC;gBAAG,WAAU;0BAAsD;;;;;;0BACpE,6LAAC;gBAAE,WAAU;0BAAqB;;;;;;;;;;;;AAGxC;KAZwB"}},
+    {"offset": {"line": 59, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

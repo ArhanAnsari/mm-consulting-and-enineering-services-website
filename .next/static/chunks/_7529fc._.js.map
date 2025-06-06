@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://E%3A/My%20Projects/VS%20Code%20Projects/Website/mm-consulting-and-enineering-services-website/components/Hero.tsx"],"sourcesContent":["'use client';\r\nimport { motion } from 'framer-motion';\r\n\r\nexport default function Hero() {\r\n  return (\r\n    <motion.section \r\n      initial={{ opacity: 0, y: 40 }} \r\n      animate={{ opacity: 1, y: 0 }} \r\n      transition={{ duration: 0.8 }}\r\n      className=\"text-center mt-20\"\r\n    >\r\n      <h1 className=\"text-4xl md:text-6xl font-bold text-yellow-400 mb-4\">Engineering Your Future</h1>\r\n      <p className=\"text-white max-w-xl mx-auto text-lg\">Providing innovative and efficient engineering solutions tailored to your needs.</p>\r\n    </motion.section>\r\n  );\r\n}"],"names":[],"mappings":";;;;AACA;AADA;;;AAGe,SAAS;IACtB,qBACE,6LAAC,6LAAA,CAAA,SAAM,CAAC,OAAO;QACb,SAAS;YAAE,SAAS;YAAG,GAAG;QAAG;QAC7B,SAAS;YAAE,SAAS;YAAG,GAAG;QAAE;QAC5B,YAAY;YAAE,UAAU;QAAI;QAC5B,WAAU;;0BAEV,6LAAC;gBAAG,WAAU;0BAAsD;;;;;;0BACpE,6LAAC;gBAAE,WAAU;0BAAsC;;;;;;;;;;;;AAGzD;KAZwB"}},
+    {"offset": {"line": 59, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

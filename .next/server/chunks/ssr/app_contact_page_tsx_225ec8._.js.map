@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://E%3A/My%20Projects/VS%20Code%20Projects/Website/mm-consulting-and-enineering-services-website/app/contact/page.tsx"],"sourcesContent":["'use client';\r\nimport { motion } from 'framer-motion';\r\n\r\nexport default function Contact() {\r\n  return (\r\n    <motion.section \r\n      initial={{ opacity: 0, y: 40 }} \r\n      animate={{ opacity: 1, y: 0 }} \r\n      transition={{ duration: 0.8 }}\r\n      className=\"px-4 md:px-20 mt-20\"\r\n    >\r\n      <h1 className=\"text-3xl md:text-5xl font-bold text-yellow-400 mb-6\">Contact Us</h1>\r\n      <p className=\"text-white text-lg mb-4\">We are located at:</p>\r\n      <p className=\"text-white\">Ganganagar, Akola - 444001, Maharashtra</p>\r\n      <p className=\"text-white mt-4\">Email: <a href=\"mailto:shoebm151@gmail.com\" className=\"text-yellow-400 underline\">shoebm151@gmail.com</a></p>\r\n    </motion.section>\r\n  );\r\n}"],"names":[],"mappings":";;;;AACA;AADA;;;AAGe,SAAS;IACtB,qBACE,8OAAC,0LAAA,CAAA,SAAM,CAAC,OAAO;QACb,SAAS;YAAE,SAAS;YAAG,GAAG;QAAG;QAC7B,SAAS;YAAE,SAAS;YAAG,GAAG;QAAE;QAC5B,YAAY;YAAE,UAAU;QAAI;QAC5B,WAAU;;0BAEV,8OAAC;gBAAG,WAAU;0BAAsD;;;;;;0BACpE,8OAAC;gBAAE,WAAU;0BAA0B;;;;;;0BACvC,8OAAC;gBAAE,WAAU;0BAAa;;;;;;0BAC1B,8OAAC;gBAAE,WAAU;;oBAAkB;kCAAO,8OAAC;wBAAE,MAAK;wBAA6B,WAAU;kCAA4B;;;;;;;;;;;;;;;;;;AAGvH"}},
+    {"offset": {"line": 80, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
